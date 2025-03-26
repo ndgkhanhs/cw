@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="navbar navbar-light bg-white p-3 shadow-sm">
         <div className="container">
           <a className="navbar-brand fw-bold">jobstealers</a>
-          <div>
+          <div className="d-flex flex-wrap gap-2">
             <Link to="/login" className="btn btn-outline-dark me-2">Log In</Link>
             <Link to="/login" className="btn btn-dark">Sign Up</Link>
             <Link to="/search" className="btn btn-primary ">Search</Link>
